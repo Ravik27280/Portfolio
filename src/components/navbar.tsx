@@ -47,6 +47,16 @@ const navbar = () => {
           <li>
             <a
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
+              href="#projects"
+            >
+              <div className="dark:text-gray-300 text-sm text-gray-700 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">
+                PROJECTS
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#education"
             >
               <div className="dark:text-gray-300 text-sm text-gray-700 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">
@@ -64,16 +74,7 @@ const navbar = () => {
               </div>
             </a>
           </li>
-          <li>
-            <a
-              className="block px-4 py-2 no-underline outline-none hover:no-underline"
-              href="#projects"
-            >
-              <div className="dark:text-gray-300 text-sm text-gray-700 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">
-                PROJECTS
-              </div>
-            </a>
-          </li>
+
         </ul>
       </div>
     </nav>
