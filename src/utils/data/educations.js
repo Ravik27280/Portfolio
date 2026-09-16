@@ -1,20 +1,21 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2018 - 2022",
-    institution: "KIET Group of Institutions",
-  },
-  {
-    id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2016 - 2018",
-    institution: "Madhuban Inter College Nautanwa",
-  },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2014 - 2016",
-    institution: "Christ The King School Nautanwa",
+    title: "B.Tech in Electronics and Communication Engineering",
+    duration: "2018 – 2022",
+    institution: "KIET Group of Institutions, Ghaziabad, India",
+    grade: "Cumulative GPA: 8.18 / 10.0",
   }
-]
+];
+
+export const certifications = [
+  {
+    id: 1,
+    title: "AWS Certified Developer – Associate (DVA-C02)",
+    issuer: "Amazon Web Services (AWS)",
+    issueDate: "Certified",
+    link: "https://www.credly.com/users/ravik27280",
+    badge: "/svg/skills/aws.svg",
+    description: "Validation of technical expertise in developing, deploying, and debugging cloud-based applications using AWS core services."
+  }
+];
